@@ -1,6 +1,5 @@
 from jinja2.ext import Extension
 from humanize import naturalsize
-
 from humanize.time import (_abs_timedelta, _date_and_delta, naturaldate, naturalday, naturaldelta, naturaltime, precisedelta, precisetime)
 from humanize.number import (ordinal, intcomma, intword, apnumber, fractional, scientific, clamp, metric)
 from humanize.i18n import (activate, deactivate, thousands_separator, decimal_separator)
