@@ -17,7 +17,7 @@ setup(
 	packages = find_packages(exclude=["test*"]),
 	entry_point = {
 		# "markdown.extensions": [
-		"jinja2_humanize_extension = jinja2_humanize_extension:__main__"
+		"jinja2_humanize_extension = jinja2_humanize_extension:HumanizeExtension"
 		# ]
 	},
 	install_requires = [
